@@ -11,4 +11,10 @@ public partial class HospedagemContratada : ContentPage
     {
 		Navigation.PopAsync();
     }
+
+    // Adicionado um evento para o botão que leva à Página Sobre
+    private void BtnSobre(object sender, EventArgs e)
+    {
+            Navigation.PushAsync(new Sobre());
+    }
 }
